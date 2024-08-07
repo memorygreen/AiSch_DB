@@ -1,0 +1,33 @@
+Q. 데이터베이스란 무엇인가요?
+--> 여러 사용자가 공유하여 사용할 목적으로 만들어진 것이고, 
+    통합해서 저장한 어떠한 운영 데이터의 집합을 데이터베이스 라고 한다.
+  
+Q. DBMS(DataBase Management System)
+--> 데이터베이스 안에 있는 방대한 데이터들을 효율적으로 조작하고 관리할 수 있도록 도와주는 시스템 소프트웨어 입니다.
+그래서 저는 오라클(Oracle)과 MySQL을 자주 사용을 했습니다. (자:프로젝트 진행했습니다)  
+
+Q. SQL(Structured Query language)
+(자 : 구조화된 질의하는 언어)
+--> 데이터 베이스에 접근하고 조작하기 위한 전세계에서 동일하게 사용하는 표준 언어이다.
+
+Q. SQL 작성순서
+SELECT > FROM > WHERE > GROUP BY > HAVING > ORDER BY
+
+***Q. SQL 실행 순서***
+FROM > WHERE > GROUP BY > HAVING > SELECT > ORDER BY
+
+
+Q. SQL문법의 종류
+
+DDL (Data Difinition Language) 데이터 정의어
+--> CREATE, ALTER, DROP, RENAME, TRUNCATE
+
+DML (Data Manipulation Language) 데이터 조작어
+--> SELECT , INSERT, UPDATE, DELETE (세인업데)
+
+TCL(Transaction Control Language) 트랜잭션 제어어
+--> COMMIT, ROLLBACK, SAVEPOINT
+
+DCL(Data Control Language) 데이터 제어어
+--> GRANT, REVOKE, ROLL
+
